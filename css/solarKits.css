@@ -1,0 +1,69 @@
+.solar-kits {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 80px 150px;
+}
+
+.solar-kits-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+  margin: 0 102px;
+}
+
+.solar-kits-title {
+  font-weight: 600;
+  font-size: 42px;
+  color: #101828;
+}
+
+.solar-kits-subtitle {
+  color: #475467;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.solar-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.solar-card {
+  width: 30%;
+  box-shadow: 0 4px 30px #0000000D;
+}
+
+.solar-card-image {
+  width: 100%;
+}
+
+.solar-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px;
+}
+
+.solar-card-title {
+  color: #101828;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.solar-card-subtitle {
+  color: #475467;
+  font-size: 16px;
+  font-weight: 400;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.solar-card-button {
+  color: #3CAB90;
+  font-weight: 600;
+  font-size: 16px;
+}
