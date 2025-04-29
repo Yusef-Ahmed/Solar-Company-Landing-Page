@@ -6,7 +6,7 @@ body {
   font-size: 18px;
 }
 
-p {
+p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
@@ -64,4 +64,74 @@ p {
 .contact-number {
   font-weight: 700;
   font-size: 24px;
+}
+
+.main-panel {
+  background-image: url('/assets/images/solar-panels-meadow.png');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  padding-top: 69px;
+  padding-left: 115px;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.lines {
+  display: flex;
+}
+
+.line1 {
+  width: 89px;
+  height: 0;
+  border: 3.75px solid #FFFFFF;
+}
+
+.line2 {
+  width: 220px;
+  height: 0;
+  border: 3.75px solid #575757
+}
+
+.main-panel-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 81px;
+  width: 50vw;
+  gap: 24px;
+}
+
+.main-panel-title {
+  font-weight: 600;
+  font-size: 52px;
+}
+
+.main-panel-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.main-panel-buttons {
+  display: flex;
+  gap: 24px;
+}
+
+.main-panel-button {
+  font-size: 14px;
+  border-radius: 109px;
+  border-style: hidden;
+  padding: 12px 34px 12px 34px;
+}
+
+.main-panel-button.green {
+  background-color: #3CAB90;
+  color: #FFFFFF;
+}
+.main-panel-button.yellow {
+  background-color: #FFBB1C;
 }
