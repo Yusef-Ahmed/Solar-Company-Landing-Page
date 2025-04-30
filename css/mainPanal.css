@@ -52,18 +52,3 @@
   display: flex;
   gap: 24px;
 }
-
-.main-panel-button {
-  font-size: 14px;
-  border-radius: 109px;
-  border-style: hidden;
-  padding: 12px 34px 12px 34px;
-}
-
-.main-panel-button.green {
-  background-color: #3CAB90;
-  color: #FFFFFF;
-}
-.main-panel-button.yellow {
-  background-color: #FFBB1C;
-}

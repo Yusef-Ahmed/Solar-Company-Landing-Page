@@ -9,3 +9,26 @@ body {
 p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
+
+.small-panel {
+  background-size: cover;
+  background-position: right;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  font-size: 14px;
+  border-radius: 109px;
+  border-style: hidden;
+  padding: 12px 34px 12px 34px;
+}
+
+.button.green {
+  background-color: #3CAB90;
+  color: #FFFFFF;
+}
+.button.yellow {
+  background-color: #FFBB1C;
+}

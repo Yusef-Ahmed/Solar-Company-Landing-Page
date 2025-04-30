@@ -1,0 +1,25 @@
+.repair-over-replacement {
+  background-image: url("../assets/images/repair-over-replacement.png");
+}
+
+.repair-over-replacement-text {
+  background-color: #00000091;
+  backdrop-filter: blur(24px);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 44px;
+  text-align: center;
+  margin: 0 291px;
+  border-radius: 12px;
+}
+
+.repair-over-replacement-title {
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.repair-over-replacement-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+}

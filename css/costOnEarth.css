@@ -1,10 +1,5 @@
 .cost-on-earth {
   background-image: url("../assets/images/power-doesnt-cost-earth.png");
-  background-size: cover;
-  background-position: right;
-  height: 70vh;
-  display: flex;
-  align-items: center;
 }
 
 .cost-on-earth-text {
