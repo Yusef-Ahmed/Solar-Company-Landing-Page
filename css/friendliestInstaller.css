@@ -1,8 +1,7 @@
-
 .friendliest-installers {
   position: relative;
   display: flex;
-  margin: 80px 152px;
+  margin: 50px 50px;
   justify-content: space-between;
 }
 
@@ -10,7 +9,6 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  width:45%;
 }
 
 .friendliest-installers-header {
@@ -22,14 +20,14 @@
 .friendliest-installers-title {
   color: #101828;
   font-weight: 600;
-  font-size: 42px;
+  font-size: 25px;
 }
 
 .friendliest-installers-subtitle {
   color: #475467;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 20px;
 }
 
 .friendliest-installers-points {
@@ -47,41 +45,72 @@
 .friendliest-installers-point {
   color: #101828;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .friendliest-installers-label {
   color: #84BD3A;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 14px;
   letter-spacing: 4px;
 }
 
 .friendliest-installers-images {
-  position: relative;
-  display: flex;
-  justify-content: right;
+  display: none;
 }
 
-.solar-charging-image {
-  width: 90px;
-  height: 90px;
-}
-
-.solar-charging-text {
-  color: #2A3334;
-}
-
-.friendliest-installers-layer {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  margin: 0 0 14px -100px;
-  background-color: #FFBB1C;
-  border-radius: 12px;
-  width: 206px;
-  gap:28px;
-  padding: 24px 30px;
+@media (min-width: 1440px) {
+  .friendliest-installers {
+    margin: 80px 100px;
+  }
+  
+  .friendliest-installers-text {
+    width:45%;
+  }
+  
+  .friendliest-installers-title {
+    font-size: 42px;
+  }
+  
+  .friendliest-installers-subtitle {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .friendliest-installers-point {
+    font-size: 20px;
+  }
+  
+  .friendliest-installers-label {
+    font-size: 20px;
+  }
+  
+  .friendliest-installers-images {
+    position: relative;
+    display: flex;
+    justify-content: right;
+  }
+  
+  .solar-charging-image {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .solar-charging-text {
+    color: #2A3334;
+  }
+  
+  .friendliest-installers-layer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0 0 14px -100px;
+    background-color: #FFBB1C;
+    border-radius: 12px;
+    width: 45%;
+    gap:28px;
+    padding: 24px 30px;
+  }
 }
