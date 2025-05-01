@@ -1,5 +1,5 @@
 .main-panel {
-  background-image: url('/assets/images/solar-panels-meadow.png');
+  background-image: url('../assets/images/solar-panels-meadow.png');
   background-size: cover;
   background-position: center;
   height: 80vh;
