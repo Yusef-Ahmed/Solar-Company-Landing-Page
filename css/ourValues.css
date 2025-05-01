@@ -1,0 +1,59 @@
+.our-values {
+  margin: 80px 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.our-values-text {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  text-align: center;
+}
+
+.our-values-title {
+  font-weight: 600;
+  font-size: 42px;
+  color: #101828;
+}
+
+.our-values-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  color: #475467;
+}
+
+.our-values-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.our-values-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #3CAB900D;
+  padding: 32px;
+  border: 1px solid #3CAB90;
+  border-radius: 12px;
+}
+
+.our-values-card-image {
+  width: 70px;
+  height: 70px;
+}
+
+.our-values-card-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #101828;
+}
+
+.our-values-card-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  color: #475467;
+  line-height: 24px;
+}
