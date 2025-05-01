@@ -3,28 +3,28 @@
   background-size: cover;
   background-position: center;
   height: 80vh;
-  padding-top: 69px;
-  padding-left: 115px;
+  padding: 40px 20px;
 }
 
 .slider {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 20px;
 }
 
 .lines {
-  display: flex;
+  display: flex;  
 }
 
 .line1 {
-  width: 89px;
+  width: 40px;
   height: 0;
   border: 3.75px solid #FFFFFF;
 }
 
 .line2 {
-  width: 220px;
+  width: 100px;
   height: 0;
   border: 3.75px solid #575757
 }
@@ -32,23 +32,62 @@
 .main-panel-content {
   display: flex;
   flex-direction: column;
-  padding-top: 81px;
-  width: 50vw;
-  gap: 24px;
+  padding-top: 40px;
+  gap: 50px;
+  text-align: center;
 }
 
 .main-panel-title {
   font-weight: 600;
-  font-size: 52px;
+  font-size: 35px;
 }
 
 .main-panel-subtitle {
   font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .main-panel-buttons {
   display: flex;
   gap: 24px;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .main-panel {
+    padding: 69px 115px;
+  }
+  
+  .slider {
+    justify-content: start;
+  }
+  
+  .line1 {
+    width: 89px;
+  }
+  
+  .line2 {
+    width: 220px;
+  }
+  
+  .main-panel-content {
+    padding-top: 81px;
+    width: 50vw;
+    gap: 24px;
+    text-align: start
+  }
+  
+  .main-panel-title {
+    font-size: 52px;
+  }
+  
+  .main-panel-subtitle {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  .main-panel-buttons {
+    justify-content: start
+  }
 }
