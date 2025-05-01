@@ -1,0 +1,93 @@
+.what-they-say {
+  display: flex;
+  gap: 32px;
+  padding: 80px 150px;
+}
+.what-they-say-text {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: baseline;
+}
+
+.what-they-say-icon {
+  height: 48px;
+}
+
+.what-they-say-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #1C1C1C;
+}
+
+.what-they-say-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #1C1C1C;
+}
+
+.what-they-say-card {
+  background-color: #3CAB900F;
+  display: flex;
+  flex-direction: column;
+  gap: 87px;
+  padding: 40px;
+  border-radius: 24px;
+}
+
+.what-they-say-card-upper {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+
+.what-they-say-card-upper-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.what-they-say-card-upper-title {
+  font-weight: 700;
+  font-size: 16px;
+  color: #3CAB90;
+}
+
+.what-they-say-card-comment {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #101828;
+  width: 70%;
+}
+
+.what-they-say-card-lower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.what-they-say-card-lower-user {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.what-they-say-card-lower-user-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #1C1C1C;
+}
+
+.what-they-say-card-lower-user-name {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.what-they-say-card-lower-user-job {
+  font-weight: 400;
+  font-size: 16px;
+}
