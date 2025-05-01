@@ -35,3 +35,17 @@
     font-size: 20px;
   }
 }
+
+@media (min-width: 2560px) {
+  .cost-on-earth-text {
+    width: 50vw;
+  }
+  
+  .cost-on-earth-title {
+    font-size: 70px;
+  }
+  
+  .cost-on-earth-subtitle {
+    font-size: 30px;
+  }
+}

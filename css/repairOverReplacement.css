@@ -39,3 +39,13 @@
     font-size: 20px;
   }
 }
+
+@media (min-width: 2560px) {
+  .repair-over-replacement-title {
+    font-size: 60px;
+  }
+  
+  .repair-over-replacement-subtitle {
+    font-size: 25px;
+  }
+}

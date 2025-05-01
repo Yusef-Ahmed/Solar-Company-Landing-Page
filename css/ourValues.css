@@ -77,3 +77,22 @@
     flex-direction: row;
   }
 }
+
+@media (min-width: 2560px) {
+  .our-values-title {
+    font-size: 60px;
+  }
+  
+  .our-values-subtitle {
+    font-size: 40px;
+  }
+
+  .our-values-card-title {
+    font-size: 50px;
+  }
+  
+  .our-values-card-subtitle {
+    font-size: 30px;
+    line-height: 140%;
+  }
+}

@@ -114,3 +114,14 @@
     padding: 24px 30px;
   }
 }
+
+@media (min-width: 2560px) {
+  .friendliest-installers-title {
+    font-size: 60px;
+  }
+  
+  .friendliest-installers-subtitle {
+    font-size: 25px;
+    line-height: 35x;
+  }
+}

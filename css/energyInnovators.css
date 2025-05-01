@@ -129,3 +129,27 @@
     grid-template-columns: repeat(2, 1fr);
   } 
 }
+
+@media (min-width: 2560px) {
+  .energy-innovators-title {
+    font-size: 60px;
+  }
+  
+  .energy-innovators-subtitle {
+    font-size: 20px;
+  }
+
+  .energy-innovators-card {
+    width: 500px;
+  }
+
+  .energy-innovators-card-title {
+    font-size: 30px;
+    line-height: 120%;
+  }
+  
+  .energy-innovators-card-subtitle {
+    font-size: 20px;
+    line-height: 140%;
+  }
+}

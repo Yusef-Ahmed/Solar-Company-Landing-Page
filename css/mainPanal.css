@@ -91,3 +91,23 @@
     justify-content: start
   }
 }
+
+@media (min-width: 2560px) {
+  .slider {
+    font-size: 30px;
+  }
+
+  .main-panel-content {
+    width: 60vw;
+    gap: 100px;
+  }
+
+  .main-panel-title {
+    font-size: 100px;
+  }
+  
+  .main-panel-subtitle {
+    font-size: 60px;
+    line-height: 80px;
+  }
+}

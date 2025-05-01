@@ -125,7 +125,28 @@
     width: 70%;
   }
 
+  .what-they-say-card-lower {
+    flex-direction: row;
+  }
+
   .what-they-say-card-lower-user {
+    text-align: start;
+    flex-direction: row;
     gap: 8px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .what-they-say-title {
+    font-size: 60px;
+  }
+  
+  .what-they-say-subtitle {
+    font-size: 30px;
+  }
+
+  .what-they-say-card-comment {
+    font-size: 40px;
+    width: 100%;
   }
 }

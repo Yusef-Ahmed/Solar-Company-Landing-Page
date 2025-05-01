@@ -112,3 +112,13 @@
     display: flex;
   }
 }
+
+@media (min-width: 2560px) {
+  .link {
+    font-size: 25px;
+  }
+
+  .contact-number {
+    font-size: 30px;
+  }
+}
