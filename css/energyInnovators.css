@@ -2,35 +2,35 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 32px;
-  padding: 80px 150px;
+  padding: 40px 50px;
   background-color: #ffbb1c0d;
 }
 
 .energy-innovators-text {
-  width: 30%;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  text-align: center;
+  align-items: center;
 }
 
 .energy-innovators-title {
   font-weight: 600;
-  font-size: 42px;
+  font-size: 25px;
   color: #101828;
 }
 
 .energy-innovators-subtitle {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   color: #475467;
 }
 
 .energy-innovators-cards {
-  /* width: 60%; */
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   justify-items: center;
   gap: 32px;
 }
@@ -97,4 +97,35 @@
   font-weight: 400;
   color: #475467;
   line-height: 24px;
+}
+
+@media (min-width: 1024px) {
+  .energy-innovators-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .energy-innovators {
+    justify-content: space-between;
+    gap: 32px;
+    padding: 80px 150px;
+  }
+  
+  .energy-innovators-text {
+    width: 30%;
+  }
+  
+  .energy-innovators-title {
+    font-size: 42px;
+  }
+  
+  .energy-innovators-subtitle {
+    font-size: 18px;
+  }
+  
+  .energy-innovators-cards {
+    grid-template-columns: repeat(2, 1fr);
+  } 
 }

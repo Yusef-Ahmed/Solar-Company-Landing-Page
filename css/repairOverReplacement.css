@@ -25,7 +25,7 @@
   line-height: 140%;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   .repair-over-replacement-text {
     padding: 44px;
     margin: 0 291px;
