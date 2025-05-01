@@ -28,7 +28,7 @@
 }
 
 .energy-innovators-cards {
-  width: 60%;
+  /* width: 60%; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
@@ -38,7 +38,7 @@
 .energy-innovators-card {
   display: flex;
   height: fit-content;
-  width: 350px;
+  width: 300px;
   flex-direction: column;
   justify-content: space-between;
   gap: 32px;
