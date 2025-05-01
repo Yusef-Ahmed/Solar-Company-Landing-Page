@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin: 80px 150px;
+  margin: 30px 50px;
 }
 
 .solar-kits-text {
@@ -10,28 +10,27 @@
   flex-direction: column;
   gap: 24px;
   text-align: center;
-  margin: 0 102px;
 }
 
 .solar-kits-title {
   font-weight: 600;
-  font-size: 42px;
+  font-size: 35px;
   color: #101828;
 }
 
 .solar-kits-subtitle {
   color: #475467;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 
 .solar-cards {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .solar-card {
-  width: 30%;
   box-shadow: 0 4px 30px #0000000D;
 }
 
@@ -60,4 +59,32 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+@media (min-width: 1024px) {
+  .solar-kits {
+    margin: 80px 150px;
+  }
+  
+  .solar-kits-text {
+    margin: 0 102px;
+  }
+  
+  .solar-kits-title {
+    font-size: 42px;
+  }
+  
+  .solar-kits-subtitle {
+    font-size: 16px;
+  }
+  
+  .solar-cards {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
+  
+  .solar-card {
+    width: 30%;
+  }
 }
