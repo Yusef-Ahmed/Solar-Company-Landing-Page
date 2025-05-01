@@ -1,8 +1,10 @@
 .what-they-say {
   display: flex;
+  flex-direction: column;
   gap: 32px;
-  padding: 80px 150px;
+  padding: 80px 50px;
 }
+
 .what-they-say-text {
   display: flex;
   flex-direction: column;
@@ -16,14 +18,14 @@
 
 .what-they-say-title {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 30px;
   line-height: 64px;
   color: #1C1C1C;
 }
 
 .what-they-say-subtitle {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 32px;
   color: #1C1C1C;
 }
@@ -32,8 +34,8 @@
   background-color: #3CAB900F;
   display: flex;
   flex-direction: column;
-  gap: 87px;
-  padding: 40px;
+  gap: 25px;
+  padding: 30px;
   border-radius: 24px;
 }
 
@@ -51,27 +53,30 @@
 
 .what-they-say-card-upper-title {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   color: #3CAB90;
 }
 
 .what-they-say-card-comment {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 150%;
   color: #101828;
-  width: 70%;
 }
 
 .what-they-say-card-lower {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 .what-they-say-card-lower-user {
   display: flex;
-  gap: 8px;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
   align-items: center;
 }
 
@@ -90,4 +95,37 @@
 .what-they-say-card-lower-user-job {
   font-weight: 400;
   font-size: 16px;
+}
+
+@media (min-width: 1440px) {
+  .what-they-say {
+    flex-direction: row;
+    padding: 80px 150px;
+  }
+  
+  .what-they-say-title {
+    font-size: 48px;
+  }
+  
+  .what-they-say-subtitle {
+    font-size: 18px;
+  }
+  
+  .what-they-say-card {
+    gap: 87px;
+    padding: 40px;
+  }
+  
+  .what-they-say-card-upper-title {
+    font-size: 16px;
+  }
+  
+  .what-they-say-card-comment {
+    font-size: 24px;
+    width: 70%;
+  }
+
+  .what-they-say-card-lower-user {
+    gap: 8px;
+  }
 }
